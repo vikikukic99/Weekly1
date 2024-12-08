@@ -1,8 +1,23 @@
-# React + Vite
+Name Selector App
+Overview
+The Name Selector App is an interactive web application that allows users to choose names for pets, babies, companies, or any other purpose. Users can go through a list of names and categorize them into Yes, No, and Maybe categories. The app features smooth animations, state management using React Hooks, and a reset functionality to start over if needed.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Animated Landing Page: A welcoming landing page with a smooth animation before starting the name selection process.
+Name Selection: Users can:
+Approve a name (Yes).
+Reject a name (No).
+Save a name for reconsideration (Maybe).
+Undo Functionality: Ability to undo the last action.
+Final Results: A summary of selected and rejected names is displayed after processing all names.
+Reconsideration: Names marked as "Maybe" are reintroduced after all other names are processed.
+Fireworks Celebration: A celebratory animation when all names have been processed.
+Reset: Option to reset and start the selection process from the beginning.
+Technologies Used
+React: Component-based framework for building the UI.
+Styled-Components: For styling the application with CSS-in-JS.
+Framer Motion: For smooth animations and transitions.
+FontAwesome: For the "Undo" button icon.
+Vite: Development build tool for React.
+Installation and Setup
+Clone the Repository
